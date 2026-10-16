@@ -39,5 +39,4 @@ uv run python -m checks.pw2_check
 uv run mypy src main.py
 uv run ruff format --check
 head -n 10 data/output/rejected.csv
-doi,reason
 ```
