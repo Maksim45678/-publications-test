@@ -33,7 +33,6 @@ uv run python main.py
 grep -c '^name = ' uv.lock
 uv sync --locked
 uv run ruff check
-uv run ruff format --check
 Лабороторная 2
 uv run python -m checks.pw2_check
 uv run mypy src main.py
