@@ -32,8 +32,9 @@ uv run python main.py
 Лабороторна 1
 grep -c '^name = ' uv.lock
 uv sync --locked
-uv run ruff check
+
 Лабороторная 2
+uv run ruff check
 uv run python -m checks.pw2_check
 uv run mypy src main.py
 uv run ruff format --check
