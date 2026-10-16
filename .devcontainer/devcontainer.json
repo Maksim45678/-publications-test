@@ -1,0 +1,11 @@
+{
+  "name": "publications",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pipx install uv",
+  "containerEnv": {"UV_LINK_MODE": "copy"},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "charliermarsh.ruff"]
+    }
+  }
+}
