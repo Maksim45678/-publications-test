@@ -8,7 +8,10 @@
 ## Запуск
 
 ```
+Лабороторная 1
 uv sync
+uv run python main_lab1_backup.py
+Лабороторная 2
 uv run python main.py
 
 ```
@@ -16,9 +19,15 @@ uv run python main.py
 ## Проверка оформления кода
 
 ```
-uv run python -m checks.pw2_check
-head -n 10 data/output/rejected.csv
-uv run python main.py
+Лабороторна 1
+grep -c '^name = ' uv.lock
+uv sync --locked
 uv run ruff check
 uv run ruff format --check
+Лабороторная 2
+uv run python -m checks.pw2_check
+uv run mypy src main.py
+uv run ruff format --check
+head -n 10 data/output/rejected.csv
+doi,reason
 ```
