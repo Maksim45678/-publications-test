@@ -16,6 +16,8 @@ uv run python main.py
 ## Проверка оформления кода
 
 ```
+uv run python -m checks.pw2_check
+head -n 10 data/output/rejected.csv
 uv run python main.py
 uv run ruff check
 uv run ruff format --check
