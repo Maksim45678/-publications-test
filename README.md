@@ -5,6 +5,16 @@
 
 Автор: Шучков Максим Денисович 26o-090401-ИТ/2
 
+## Переключение веток
+
+```
+Лабороторная 1
+cd /workspaces/-publications-test
+git switch lab1-final
+Лабораторная 2
+git switch main
+```
+
 ## Запуск
 
 ```
