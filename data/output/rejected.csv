@@ -1,0 +1,8 @@
+doi,reason
+,DOI: Field required
+10.5555/pw2.0011,"title: List should have at least 1 item after validation, not 0"
+10.5555/pw2.0012,title: Field required
+12345,DOI: Input should be a valid string
+10.5555/pw2.0014,ISSN: Input should be a valid list
+,DOI: Field required
+10.5555/pw2.0015,Publication: Название публикации не должно быть пустым
