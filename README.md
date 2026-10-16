@@ -19,9 +19,9 @@ git switch main
 
 ```
 Лабороторная 1
-uv sync
 uv run python main_lab1_backup.py
 Лабороторная 2
+uv sync
 uv run python main.py
 
 ```
