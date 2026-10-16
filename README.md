@@ -16,6 +16,7 @@ uv run python main.py
 ## Проверка оформления кода
 
 ```
+uv run python main.py
 uv run ruff check
 uv run ruff format --check
 ```
