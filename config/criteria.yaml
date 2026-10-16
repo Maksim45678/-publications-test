@@ -1,0 +1,8 @@
+# Критерии проверки публикаций.
+# Значения учебные; действующие задаются локальным актом вуза.
+registry_version: "ЕГПНИ, версия от 01.09.2026"
+max_level: 2
+period:
+  start_year: 2025
+  end_year: 2025
+require_affiliation: true
